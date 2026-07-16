@@ -1,0 +1,172 @@
+<!DOCTYPE html> <!--yazım dilinin html5 olduğunu söylüyoruz-->
+
+<html lang="tr"> <!-- dil belirtmek için.-->
+
+    <head> <!--kullanıcıların görmediği arka plan işlemleri için.-->
+
+        <meta charset="utf-8"><!--türkçe karakterlerin kullanımı için. -->
+
+        <title>First HTML Page.</title> <!--tarayıcıda yukarda sitenin 
+        title'ının nasıl gözükeceğini değiştirmek için <title> kullanılır-->
+
+    </head>
+
+    <body> <!--kullanıcının ekranda görecekleri-->
+
+    
+        <div> <!-- block mantığını temsil eden etiketlerden birisidir.Block yeni satır 
+                başlatır.-->
+
+            <div>demir dinç</div>
+
+            <span>demir dinç</span> <br> <!--inline mantığını temsil eden etiketlerden birisidir.
+                                    İnline bulunduğu satırda devam eder.-->
+
+            Ben Demir Dinç<br> 
+            *alt satır*
+            <!-- br alt satıra geçmek için olan bir etikettir.Aynı enter ile yeni bir satır açmak gibi.-->
+
+        </div>
+
+        <p> <!-- paragraf etiketidir.Paragraf yazılarında bu etiket kullanılır.-->
+            burası benim paragrafım
+        </p>
+
+        <p>
+            burası benim 2. paragrafım
+        </p>
+
+        <h1>Başlıklar</h1> <!--<h1> başlıkları belirtmek için kullanılır toplam 6 tane 
+                            başlık vardır en önemli başlıktan en önemsiz başlığa doğru 
+                            sıralanır.Yani <h1> en önemli başlıktır,<h6> en önemsiz başlıktır.-->
+
+        <h1>Başlık</h1> <!-- en önemli başlık.Örn:Sitenin adı-->
+        <h2>Başlık</h2>
+        <h3>Başlık</h3>
+        <h4>Başlık</h4>
+        <h5>Başlık</h5>
+        <h6>Başlık</h6> <!-- en önemsiz başlık -->
+
+        <!--METİN BİÇİMLENDİRME ETİKETLERİ.-->
+
+        <p>
+            <div>Ben <b>Demir</b> Dinç </div><!-- burada "Demir" kelimesi sadece kalın olacaktır.-->
+            <div>Ben <strong>Demir</strong> Dinç </div> <!-- burada ise "Demir" kelimesinin hem önemli olduğu
+                                                            vurgulandı hemde "Demir" kelimesi kalın oldu.-->
+        </p>
+        <p>
+            <div>Ben <i>Demir</i> Dinç </div> <!-- Burada "Demir" kelimesi italic fontta eğik duruyor.-->
+            <div>Ben <em>Demir</em> Dinç </div> <!-- burada ise "Demir" kelimesinin hem önemli olduğu 
+                                                    vurgulandı hemde "Demir" kelimesi italic oldu.-->
+        </p>
+        <p>
+            <div>Ben <mark>Demir</mark> Dinç </div> <!-- Burada "Demir" kelimesinin üstünden kalemle geçilmiş 
+                                                        gibi işaretlendi-->
+        </p>
+        <p>
+            <div>Ben <small>Küçük Demir</small> Dinç </div> <!--Burada "Küçük Demir" kelimesi cümledeki
+                                                                diğer kelimelere kıyasla daha küçük duruyor-->
+        </p>
+        <p>
+            <div>Ben <u>Demzirr</u> Dinç</div> <!--Burada "Demir" olarak yazılmış olması gereken kelime 
+                                                   "Demzirr" diye yanlış bir şekilde yazıldığı için
+                                                    altı çizildi-->
+        </p>
+        <p>
+            <div>Ben <s>90 kiloyum</s> 80 kiloyum.</div> <!-- bu yazıda artık 90 kilo olunmadığı,80 kiloya 
+                                                            düşüldüğü ve artık 90 kilo olma durumunun
+                                                            doğru olmadığını göstermek için "90 kiloyum"
+                                                            cümlesinin üstüne bir çizgi çekildi-->
+        </p> 
+        <p>
+            <div>ben <s>90 kiloyum</s> <u>80 kiloyum</u></div> <!--bu yazıda artık 90 kilo olunmadığı,80 kiloya 
+                                                            düşüldüğü ve artık 90 kilo olma durumunun
+                                                            doğru olmadığını göstermek için "90 kiloyum"
+                                                            cümlesinin üstüne bir çizgi çekildi ve 80 kilo
+                                                            olma durumunun 90 kilo olma durumunun yerini alması
+                                                            yüzünden "80 kiloyum cümlesinin altına bir çizgi çekildi"-->
+        </p>
+        <p>
+            <div>Motorumu bugüne özel <del>120.000 TL</del> yerine <ins>96.000 TL</ins>'ye satıyorum</div>
+            <!-- yukarda kilo değişim durumunda yapılan manuel etiketler yerine del ve ins etiketleri
+             kullanılarak değişken ve değişkenin yerine geçen şey daha iyi belirtildi-->
+        </p>
+        <p>
+            <div>H<sub>2</sub>O ,Su elementidir</div>  <!--sub etiketi sayesinde 2 aşşağıda duruyor ve 
+                                                            su elementi düzgün bir şekilde gösterilmiş
+                                                            olunuyor.-->
+        </p>
+        <p>
+            <div>10<sup>2</sup> = 100 eder.</div> <!--sup etiketi sayesinde 2 üslü sayı olarak gösteriliyor-->
+        </p>
+
+       
+    </body>
+
+</html>
+
+<!--lesson01 de öğrenilenler:
+    
+    html nin yapı taşlarını öğrendik kesinlikle gerekli olan etiketleri öğrendik bunlar
+
+    <!DOCTYPE html> - yazım dilinin html5 olduğunu söylüyoruz
+
+    <html lang="tr"> -dil belirtmek için.
+
+    <head> -kullanıcıların görmediği arka plan işlemleri için.
+
+    <meta charset="utf-8"> -türkçe karakterlerin kullanımı için.
+
+    <title> -tarayıcıda yukarda sitenin title'ının nasıl gözükeceğini değiştirmek için <title>
+             kullanılır
+
+    <body> - kullanıcının ekranda görecekleri
+
+
+    2. Olarak block ve inline mantığını öğrendik ve bunları temsil eden en popüler
+    iki etiketi öğrendik.Bunlar:
+
+    <div> -  block mantığını temsil eden etiketlerden birisidir.Block yeni satır başlatır.
+
+    <span> - inline mantığını temsil eden etiketlerden birisidir.İnline bulunduğu satırda 
+            devam eder.
+
+    3. Olarak paragraf etiketini ve başlık etiketini öğrendik
+
+    <p> - paragraf etiketidir.Paragraf yazılarında bu etiket kullanılır.
+    
+    <h1>(...)<h6> - <h1> başlıkları belirtmek için kullanılır toplam 6 tane  başlık vardır 
+                    en önemli başlıktan en önemsiz başlığa doğru sıralanır.Yani <h1> en 
+                    önemli başlıktır,<h6> en önemsiz başlıktır.
+
+    <h1>Başlık</h1> -> en önemli başlık.Örn:Sitenin adı
+        <h2>Başlık</h2>
+        <h3>Başlık</h3>
+        <h4>Başlık</h4>
+        <h5>Başlık</h5>
+        <h6>Başlık</h6> -> en önemsiz başlık
+
+    4. olarak metin biçimlendirme efektlerini öğrendik
+
+        <b></b>  Sadece Yazı fontunu kalın göstermek için yazıyı kalınlaştırmaya yarayan
+                    etiket
+        <strong></strong> İçine yazılan kelimenin hem önemli olduğunu vurgulamak için hemde önemli olduğu
+                             vurgulanılan kelimeyi kalın göstermek için kullanılır.
+
+
+        <i></i>  Sadece Yazı fontunu italic(eğik) göstermek için yazıyı eğiltmeye yarayan
+                    etiket
+        <em></em>  İçine yazılan kelimenin hem önemli olduğunu vurgulamak için,hemde önemli olduğu
+                        vurgulanılan kelimeyi italic(eğik) fontta göstermek için kullanılır. 
+
+
+
+    -->
+
+
+
+    <!--Day01 özet
+    Bugün 5 tane öğretici video izledim her biri 5-15 dakika uzunluğundaki videolardı
+    her izlediğimi kendi başıma burayada yazıp denedim ve kendi başıma notlar aldım
+    saat 04.00 a.m - 04.15 a.m saatlerinde başladım ve şuan saat 06.00 a.m
+    herşeyi öğrenmeye başladığımın ilk günü.-->
